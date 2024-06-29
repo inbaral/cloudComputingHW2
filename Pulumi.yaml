@@ -1,0 +1,10 @@
+name: cloudComputingHW2
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: AWS deploynent
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
